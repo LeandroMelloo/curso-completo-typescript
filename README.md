@@ -1,2 +1,2 @@
-# denojs
-Novo runtime javascript, para aplicações clientes servidor. Um CRUD utilizando typescrip e denojs.
+# Curso completo de Typescript com NodeJS 
+Curso completo de Typescript com NodeJS
