@@ -1,7 +1,7 @@
 type Item = {
-    id?: number
-    nome: string
-    descricao: string
-}
+  id?: number;
+  nome: string;
+  descricao: string;
+};
 
-export default Item
+export default Item;
