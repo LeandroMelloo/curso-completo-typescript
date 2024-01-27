@@ -4,18 +4,28 @@
   "description": "Curso completo com Typescript e NodeJS",
   "main": "main.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --watch src/ --exec ts-node src/server.ts -e ts",
+    "build": "tsc",
+    "test": "jest"
   },
   "author": "Leandro Mello",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.6",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "@types/cors": "^2.8.17",
+    "@types/jest": "^29.5.11",
+    "@types/supertest": "^6.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2"
   }
 }

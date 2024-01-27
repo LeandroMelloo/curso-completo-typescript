@@ -26,6 +26,22 @@ npm i express
 
 npm i -D @types/express
 
+# Comando para instalar o nodemon no ambiente de desenvolvimento
+
+npm i ts-node nodemon -D
+
+# Comando para instalar o Jest para construção de Testes
+
+npm i jest ts-jest @types/jest
+
+# Comando para instalar o Supertest para simular requisições para API
+
+npm i supertest @types/supertest
+
+# Comando para instalação da biblioteca Cors
+
+npm i cors @types/cors
+
 # Comando para inicializar o servidor no ambiente de desenvolvimento
 
 npm run dev
