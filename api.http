@@ -1,2 +1,12 @@
 GET http://localhost:4000
 Content-Type: application/json
+
+####
+
+GET http://localhost:4000/api/itens
+Content-Type: application/json
+
+####
+
+GET http://localhost:4000/api/itens/123
+Content-Type: application/json
